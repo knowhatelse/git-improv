@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitImprov", "GitImprov\GitImprov.csproj", "{26CD6A27-34FB-4DAD-B630-3013FCE8D2DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitImprov", "GitImprov\GitImprov.csproj", "{B1BC8108-D32F-4DFA-8FFF-083D0EEC7E8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{26CD6A27-34FB-4DAD-B630-3013FCE8D2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26CD6A27-34FB-4DAD-B630-3013FCE8D2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26CD6A27-34FB-4DAD-B630-3013FCE8D2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26CD6A27-34FB-4DAD-B630-3013FCE8D2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1BC8108-D32F-4DFA-8FFF-083D0EEC7E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BC8108-D32F-4DFA-8FFF-083D0EEC7E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BC8108-D32F-4DFA-8FFF-083D0EEC7E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BC8108-D32F-4DFA-8FFF-083D0EEC7E8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5A0ECF23-E301-4B5A-B3F5-499D45566D38}
+		SolutionGuid = {3A8A8018-5067-475D-9225-605D81FB5417}
 	EndGlobalSection
 EndGlobal
