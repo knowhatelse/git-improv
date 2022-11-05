@@ -8,4 +8,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="DotNetBrowser.WinForms" Version="2.18.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.0-rc.2.22472.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.0-rc.2.22472.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
 </Project>
