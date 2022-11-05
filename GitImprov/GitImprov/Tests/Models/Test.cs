@@ -9,11 +9,8 @@ using System.Threading.Tasks;
 namespace GitImprov.Tests.Models
 {
     public class Test
-    {
-        [NotMapped] private GitImprovContext db = new GitImprovContext();
-
+    {  
         public int Id { get; set; }
         public string? Text { get; set; }
-
     }
 }

@@ -15,8 +15,6 @@ namespace GitImprov.DataBase
         public DbSet<Backingtrack>? Backingtracks { get; set; }
         public DbSet<Genre>? Genres { get; set; }
         public DbSet<GuitarPlayer>? GuitarPlayers { get; set; }
-        public DbSet<Key>? Keys { get; set; }
-        public DbSet<Tempo>? Tempos { get; set; }
 
         public string DbPath { get; }
 
