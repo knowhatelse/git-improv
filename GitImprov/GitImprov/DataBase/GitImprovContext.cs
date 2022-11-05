@@ -1,4 +1,5 @@
-﻿using GitImprov.Tests.Models;
+﻿using GitImprov.Models;
+using GitImprov.Tests.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,11 @@ namespace GitImprov.DataBase
     public class GitImprovContext: DbContext
     {
         public DbSet<Test>? Tests { get; set; }
+        public DbSet<Backingtrack>? Backingtracks { get; set; }
+        public DbSet<Genre>? Genres { get; set; }
+        public DbSet<GuitarPlayer>? GuitarPlayers { get; set; }
+        public DbSet<Key>? Keys { get; set; }
+        public DbSet<Tempo>? Tempos { get; set; }
 
         public string DbPath { get; }
 

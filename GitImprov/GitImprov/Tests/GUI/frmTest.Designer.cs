@@ -32,7 +32,6 @@
             this.btnSave = new System.Windows.Forms.Button();
             this.txtOutput = new System.Windows.Forms.TextBox();
             this.btnGet = new System.Windows.Forms.Button();
-            this.btnClear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtInput
@@ -71,21 +70,11 @@
             this.btnGet.UseVisualStyleBackColor = true;
             this.btnGet.Click += new System.EventHandler(this.btnGet_Click);
             // 
-            // btnClear
-            // 
-            this.btnClear.Location = new System.Drawing.Point(663, 409);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(125, 29);
-            this.btnClear.TabIndex = 4;
-            this.btnClear.Text = "Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
-            // 
             // frmTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnGet);
             this.Controls.Add(this.txtOutput);
             this.Controls.Add(this.btnSave);
@@ -104,7 +93,6 @@
         private Button btnSave;
         private TextBox txtOutput;
         private Button btnGet;
-        private Button btnClear;
 
     }
 }
