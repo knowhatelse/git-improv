@@ -1,11 +1,11 @@
 # GitImprov
-##About the project
+## About the project
 GitImprov is a small desktop application that aims to make guitar practicing fun and interesting.
 
 The app was made in the .NET 6.0 framework. 
 C# was used for the backend, for data sotorage was a SQLite database used and the GUI was made with WinForms. 
 
-##How the app works?
+## How the app works?
 The app can load and save audio files from your pc, play them, play them looping, or play some audi from the internet. 
 Now, how does it make guitar practicing more fun and interesting?
 So, in the app you have options to add you favorite guitar players, playing techniques and modes, 
@@ -14,5 +14,5 @@ every time when the timer is up! (Yes, you can change the timer time.)
 So, for practicing your guitar playing you have to improvise over the backing track in the style of the 
 given guitar player, or with the given technique or in the given mode.
 
-##Status of the app
+## Status of the app
 The app is currently still in the process of devel
