@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace GitImprov.Models
 {
-    public class Backingtrack
+    public class Mode
     {
         public int Id { get; set; }
         public string? Name { get; set; }
-        public string? Location { get; set; }
     }
 }

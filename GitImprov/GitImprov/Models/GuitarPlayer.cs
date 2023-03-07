@@ -6,14 +6,5 @@ namespace GitImprov.Models
     {
         public int Id { get; set; }
         public string? Name { get; set; }
-        public string? Surname { get; set; }
-
-        [NotMapped] public string NameSurname => $"{Name} {Surname}";
-
-        public override string ToString()
-        {
-            return NameSurname;
-        }
-
     }
 }
