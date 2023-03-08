@@ -16,3 +16,4 @@ given guitar player, or with the given technique or in the given mode.<br>
 
 ## **Status of the app**
 The app is currently still in the process of development. <br>
+To see the current state of the project, checkout the dev branch. <br>
