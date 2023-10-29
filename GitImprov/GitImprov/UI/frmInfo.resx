@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtAbout.Text" xml:space="preserve">
+    <value>WELCOME TO GITIMPROV!
+
+
+Elevate your improvisation practice!
+
+GitImprov is an app for engaging and exciting improvisation practice, adding an element of challenge and enjoyment to your musical journey.
+While your backing track plays, enjoy a timer and spontaneously generated guitar players, modes, techniques, and notes designed to inspire and guide your improvisation.
+With each timer completion, a fresh set of guitar players, modes, techniques, and notes is offered enriching your improvisational experience.
+GitImprov offers an immersive and dynamic approach to improvisation practice infusing randomness into your sessions for an engaging and evolving musical adventure.
+
+
+
+The features and capabilities of the app are listed below.
+
+
+
+BACKING TRACK FEATURES:
+
+LOAD: Import your favorite backing tracks to create the perfect backdrop for your musical journey.
+PLAY, STOP, PAUSE, and RESUME: Control the playback of your audio with ease.
+LOOP and SHUFFLE: Set your tracks to loop or shuffle for a dynamic listening experience.
+VOLUME CONTROL: Adjust the audio volume to suit your preferences.
+TRACK INFORMATION: Easily view the loaded audio file's name.
+
+
+BACKING TRACK MANAGEMENT:
+
+LIBRARY MANAGEMENT: Organize your tracks by deleting, loading, and setting them as active or inactive for shuffling.
+SHUFFLE EXCLUSION: Choose which tracks to include or exclude when playing in shuffle mode.
+
+
+CREATIVE IMPROVISATION:
+
+TIMER AND RANDOM GENERATION: Start the timer to improvise over your track, as random guitar players, modes, techniques, and notes per beat are generated for added inspiration.
+CUSTOMIZATION: Toggle or modify any generated elements to suit your creative flow.
+TIMER SETTINGS: Adjust the timer settings to align with your practice or performance needs.
+SEARCH FEATURES: Easily search through your collection for quick access.
+
+
+GUITAR PLAYERS, MODES, and TECHNIQUES:
+
+MANAGE &amp; CUSTOMIZE: Add, delete, and activate or deactivate guitar players, modes, and techniques.
+SEARCH FEATURES: Easily search through your collection for quick access.
+
+
+
+GitImprov empowers you to explore your musical potential.
+experiment with diverse elements and curate your ideal environment for musical expression.
+Dive into the world of improvisation and creative exploration with ease and flexibility.
+
+
+For further assistance, suggestions, bug fixes, or new features, feel free to contact me at the links below or to make a PR on the project.
+
+Email: kenan.kajtazovic.01@gmail.com
+LinkedIn: https://www.linkedin.com/in/kenan-kajtazovi%C4%87-84b236232/
+GitHub: https://github.com/knowhatelse
+Project repository: https://github.com/knowhatelse/git-improv
+
+
+
+Attribution links to all icons that are used in the app:
+
+FOMR LOGO ICON: https://www.flaticon.com/free-icon/guitar_2741308
+VOLUME UP: https://www.flaticon.com/free-icon/volume_4211401
+VOLUME DOWN: https://www.flaticon.com/free-icon/volume-down_4211407
+RESUME: https://www.flaticon.com/free-icon/media-end_31755
+PLAY: https://www.flaticon.com/free-icon/play-button-arrowhead_27223
+STOP: https://www.flaticon.com/free-icon/stop-button_4029077
+LOOP: https://www.flaticon.com/free-icon/refresh_2546743
+PAUSE: https://www.flaticon.com/free-icon/pause_2920686
+UPLOAD: https://www.flaticon.com/free-icon/up-arrow_12356394
+SHUFFLE: https://www.flaticon.com/free-icon/shuffle_724979
+TURN OFF:https://www.flaticon.com/free-icon/power-switch_4139573
+SETTINGS: https://www.flaticon.com/free-icon/settings_503849
+INFO: https://www.flaticon.com/free-icon/info_471713
+GUITAR PICK: https://www.flaticon.com/free-icon/guitar-pick_5728341
+MUSIC NOTES: https://www.flaticon.com/free-icon/eighth-notes_63556
+GUITAR: https://www.flaticon.com/free-icon/guitar-player_431252
+HOME: https://www.flaticon.com/free-icon/home_1946436
+WAVE SOUND: https://www.flaticon.com/free-icon/wave-sound_6707113
+BIN: https://www.flaticon.com/free-icon/bin_484611
+ADD: https://www.flaticon.com/free-icon/add_1237946</value>
+  </data>
+</root>
