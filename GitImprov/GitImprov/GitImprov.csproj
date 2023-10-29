@@ -9,12 +9,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.0-preview.1.23111.4" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0-preview.1.23111.4">
+    <Compile Remove="GUI\**" />
+    <EmbeddedResource Remove="GUI\**" />
+    <None Remove="GUI\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.12">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="NAudio.WinForms" Version="2.1.0" />
+    <PackageReference Include="NAudio" Version="2.2.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -33,7 +39,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="GUI\" />
+    <Folder Include="Data\Database\" />
+    <Folder Include="Resources\Backingtracks\" />
   </ItemGroup>
 
 </Project>

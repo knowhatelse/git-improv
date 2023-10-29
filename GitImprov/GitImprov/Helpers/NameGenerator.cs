@@ -1,28 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GitImprov.Helpers
+﻿namespace GitImprov.Helpers
 {
     internal class NameGenerator
     {
-        public static string GetBackingtrackName(string audiofilePath)
+        public static string GetBackingTrackName(string audioFilePath)
         {
-            var backingtrackName = GetNameFromFilePath(audiofilePath);
-            return ReverseName(backingtrackName);
+            var backingTrackName = GetNameFromFilePath(audioFilePath);
+            return ReverseName(backingTrackName);
         }
 
-        private static string GetNameFromFilePath(string audiofilePath)
+        private static string GetNameFromFilePath(string audioFilePath)
         {
-            var audiofilePathLenght = audiofilePath.Length - 1;
-            var nameFromFilepath = "";
+            var audiofilePathLenght = audioFilePath.Length - 1;
+            var nameFromFilepath = string.Empty;
 
             while (true)
             {
-                var letter = audiofilePath[audiofilePathLenght];
-                if (letter.ToString().Contains("\\"))
+                var letter = audioFilePath[audiofilePathLenght];
+
+                if (letter.ToString().Contains('\\'))
                 {
                     return nameFromFilepath;
                 }
@@ -34,7 +29,7 @@ namespace GitImprov.Helpers
 
         private static string ReverseName(string backingtrackName)
         {
-            var reversedName = "";
+            var reversedName = string.Empty;
 
             for (int i = backingtrackName.Length - 1; i >= 0; i--)
             {
@@ -43,5 +38,6 @@ namespace GitImprov.Helpers
 
             return reversedName;
         }
+
     }
 }
