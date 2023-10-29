@@ -33,7 +33,7 @@ namespace GitImprov.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Backingtracks");
+                    b.ToTable("BackingTracks");
                 });
 
             modelBuilder.Entity("GitImprov.Models.GuitarPlayer", b =>
