@@ -206,11 +206,13 @@
             Controls.Add(pnlContent);
             Controls.Add(pnlNav);
             Controls.Add(pnlSideBar);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             MinimumSize = new Size(900, 700);
             Name = "FrmMain";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "GitImprov 1.0";
+            Text = "GitImprov";
             pnlSideBar.ResumeLayout(false);
             pnlNav.ResumeLayout(false);
             pnlNav.PerformLayout();
