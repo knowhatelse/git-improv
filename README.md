@@ -50,7 +50,7 @@ Additionally, a demo video of the application can be found in the "Demo" section
 
 ## **Contribution**
 
-If you have any ideas on how to further expand this simulation, make it even more realistic, or if you find any errors/inconsistencies in the code and the simulation model itself, feel free to create a pull request with your changes, and you will be added to the list of contributors. </br>
+If you have any ideas on how to further expand this application, make it even more better, or if you find any errors/bugs in the code and the application itself, feel free to create a pull request with your changes, and you will be added to the list of contributors. </br>
 
 ## **License**
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
