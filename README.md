@@ -9,7 +9,7 @@ With each timer completion, a fresh set of guitar players, modes, techniques, an
 GitImprov offers an immersive and dynamic approach to improvisation practice infusing randomness into your sessions for an engaging and evolving musical adventure. <br>
 
 ## **Development**
-- Framework: .NET (Windows Forms Application)
+- Framework: .NET (Windows Forms Application, Entity Framework)
 - Language: C#
 - Database: SQLite
 
