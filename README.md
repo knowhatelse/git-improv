@@ -4,6 +4,7 @@
 
 GitImprov is an app for engaging and exciting improvisation practice, adding an element of challenge and enjoyment to your musical journey. <br>
 While your backing track plays, enjoy a timer and spontaneously generated guitar players, modes, techniques, and notes designed to inspire and guide your improvisation. <br>
+
 With each timer completion, a fresh set of guitar players, modes, techniques, and notes is offered enriching your improvisational experience. <br>
 GitImprov offers an immersive and dynamic approach to improvisation practice infusing randomness into your sessions for an engaging and evolving musical adventure. <br>
 
@@ -15,6 +16,10 @@ GitImprov offers an immersive and dynamic approach to improvisation practice inf
 ## **Installation**
 
 In the \"Releases\" section, you can find the Installer available for download. </br>
+
+## **Usage**
+Using this application is self-explanatory due to its simple and modern user interface, which adheres to contemporary standards and principles. </br>
+Additionally, a demo video of the application can be found in the "Demo" section, where you can explore all its features. </br>
   
 ## **Features**
 
@@ -47,12 +52,16 @@ In the \"Releases\" section, you can find the Installer available for download. 
 
 If you have any ideas on how to further expand this simulation, make it even more realistic, or if you find any errors/inconsistencies in the code and the simulation model itself, feel free to create a pull request with your changes, and you will be added to the list of contributors. </br>
 
-##License
+## **License**
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## **Contact**
 You can contact me via email: kenan.kajtazovic.01@gmail.com. </br>
 Also, you can reach me on any platform listed in the description of my GitHub profile.</br>
+
+## **Demo**
+
+Watch the demo video of the application: [GitImprov - demo video](https://youtu.be/mLLS-HSwURE)
 
 ## **Attribution** 
 
