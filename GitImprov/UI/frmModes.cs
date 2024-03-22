@@ -23,7 +23,7 @@ namespace GitImprov.UI
 
             _modeService = ModeService.GetInstance();
 
-            _frmDialog = new FrmDialog(this.Tag.ToString()!);
+            _frmDialog = new FrmDialog(this.Tag!.ToString()!);
             _frmDialog.EntityAdded += LoadModes;
         }
 

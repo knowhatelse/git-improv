@@ -1,6 +1,5 @@
 ﻿using GitImprov.Data.Connection;
 using GitImprov.Models;
-using System.Configuration;
 
 namespace GitImprov.Generators
 {
@@ -42,7 +41,7 @@ namespace GitImprov.Generators
                 return false;
             }
 
-            var audioFileFolderLocation = ConfigurationManager.AppSettings["AudioFileFolderLocationPath"]!;
+            var audioFileFolderLocation = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
             var audioFileFolderPath = Path.Combine(audioFileFolderLocation, backingTrackName);
 
             try
@@ -92,8 +91,8 @@ namespace GitImprov.Generators
         }
 
         public BackingTrack? GetRandomBackingTrack()
-        {      
-            if( _activeBackingTracks?.Count == 0 || _activeBackingTracks is null)
+        {
+            if (_activeBackingTracks?.Count == 0 || _activeBackingTracks is null)
             {
                 return null;
             }
@@ -104,7 +103,7 @@ namespace GitImprov.Generators
 
         public bool RemoveBackingTrack(BackingTrack backingTrack)
         {
-            if(backingTrack is null)
+            if (backingTrack is null)
             {
                 return false;
             }
@@ -116,7 +115,7 @@ namespace GitImprov.Generators
                     File.Delete(backingTrack.Location);
                 }
                 catch { }
-               
+
             }
 
             DBConnect.DataBase.BackingTracks?.Remove(backingTrack);
@@ -129,7 +128,7 @@ namespace GitImprov.Generators
 
         public bool RemoveAllBackingTracks()
         {
-            if(_allBackingTracks?.Count == 0 || _allBackingTracks is null)
+            if (_allBackingTracks?.Count == 0 || _allBackingTracks is null)
             {
                 return false;
             }

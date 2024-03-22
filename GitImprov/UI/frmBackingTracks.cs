@@ -26,7 +26,7 @@ namespace GitImprov.UI
 
             _backingTrackService = BackingTrackService.GetInstance();
 
-            _frmDialog = new FrmDialog(this.Tag.ToString()!);
+            _frmDialog = new FrmDialog(this.Tag!.ToString()!);
             _frmDialog.EntityAdded += LoadBackingTracks;
         }
 
@@ -94,7 +94,7 @@ namespace GitImprov.UI
 
         private void BtnRemoveAll_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show(Messages.AllBackingTracksDeletedBody, Messages.AllBackingTracksDeletedTitle , MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show(Messages.AllBackingTracksDeletedBody, Messages.AllBackingTracksDeletedTitle, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 _backingTrackService.RemoveAllBackingTracks();
                 LoadBackingTracks();

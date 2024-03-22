@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>GitImprov.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="GUI\**" />
@@ -32,5 +33,10 @@
   <ItemGroup>
     <Folder Include="Data\Database\" />
     <Folder Include="Resources\Backingtracks\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Data\Database\GitImprov.db">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>

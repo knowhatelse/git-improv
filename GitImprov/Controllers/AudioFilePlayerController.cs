@@ -50,7 +50,7 @@ namespace GitImprov.Controllers
             {
                 var randomBackingTrack = _backingTrackService.GetRandomBackingTrack();
 
-                if(randomBackingTrack is null)
+                if (randomBackingTrack is null)
                 {
                     OnAudioFilePlayed();
                     return;
@@ -87,7 +87,7 @@ namespace GitImprov.Controllers
             {
                 return false;
             }
-           
+
             return true;
         }
 

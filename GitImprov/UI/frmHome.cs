@@ -1,6 +1,5 @@
 ﻿using GitImprov.Controllers;
 using GitImprov.DTO;
-using GitImprov.Generators;
 using GitImprov.Helpers;
 using TimerController = GitImprov.Controllers.TimerController;
 
@@ -206,7 +205,7 @@ namespace GitImprov.UI
 
         private void BtnTimerSettings_Click(object sender, EventArgs e)
         {
-            var form = new FrmDialog(this.Tag.ToString()!);
+            var form = new FrmDialog(this.Tag!.ToString()!);
             form.ShowDialog();
         }
 

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitImprov", "GitImprov\GitImprov.csproj", "{87B15AA5-6442-4535-A149-DEB9B847FB30}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{780CFAC6-04B8-41E7-B5D4-4E263972F60A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{87B15AA5-6442-4535-A149-DEB9B847FB30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87B15AA5-6442-4535-A149-DEB9B847FB30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87B15AA5-6442-4535-A149-DEB9B847FB30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{780CFAC6-04B8-41E7-B5D4-4E263972F60A}.Debug|Any CPU.ActiveCfg = Debug
+		{780CFAC6-04B8-41E7-B5D4-4E263972F60A}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

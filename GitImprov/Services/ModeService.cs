@@ -1,6 +1,5 @@
 ﻿using GitImprov.Data.Connection;
 using GitImprov.Models;
-using System.Dynamic;
 
 namespace GitImprov.Generators
 {
@@ -52,7 +51,7 @@ namespace GitImprov.Generators
 
         public bool ChangeActiveStatus(Mode mode)
         {
-            if(mode is null)
+            if (mode is null)
             {
                 return false;
             }

@@ -47,7 +47,7 @@ namespace GitImprov.UI
             Button clickedButton = (Button)sender;
             clickedButton.BackColor = ColorTranslator.FromHtml(Colors.GrayWhite);
             ButtonAccentImage(clickedButton);
-            lblNavText.Text = clickedButton.Tag.ToString();
+            lblNavText.Text = clickedButton.Tag!.ToString();
 
             UpdateOtherButtons(clickedButton);
             OpenForm(clickedButton.Tag.ToString());

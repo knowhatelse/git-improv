@@ -17,7 +17,7 @@ namespace GitImprov.Data.Context
 
         public GitImprovContext()
         {
-            _dbPath = ConfigurationManager.ConnectionStrings["DatabaseLocationPath"].ConnectionString;  
+            _dbPath = ConfigurationManager.ConnectionStrings["DatabaseLocationPath"].ConnectionString;
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options) => options.UseSqlite(_dbPath);

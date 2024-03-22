@@ -24,7 +24,7 @@ namespace GitImprov.UI
         public FrmDialog(string fromTag)
         {
             InitializeComponent();
-            
+
             _type = fromTag;
 
             _guitarPlayerService = GuitarPlayerService.GetInstance();
@@ -47,7 +47,7 @@ namespace GitImprov.UI
                 this.Text = $"Add new {_type.ToLower()}";
                 lblText.Text = $"Enter {_type.ToLower()} name:";
             }
-            
+
         }
 
         private void BtnAdd_Click(object sender, EventArgs e)

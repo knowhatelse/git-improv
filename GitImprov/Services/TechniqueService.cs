@@ -61,7 +61,7 @@ namespace GitImprov.Generators
             DBConnect.DataBase.SaveChanges();
             UpdateTechniquesLists();
 
-            return true;    
+            return true;
         }
 
         public List<Technique>? GetAllTechniques()

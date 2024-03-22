@@ -66,7 +66,7 @@ namespace GitImprov.Generators
 
         public List<GuitarPlayer>? GetAllGuitarPlayers()
         {
-           return _allGuitarPlayers;
+            return _allGuitarPlayers;
         }
 
         public GuitarPlayer? GetRandomGuitarPlayer()
@@ -96,7 +96,7 @@ namespace GitImprov.Generators
         }
 
         public bool RemoveAllGuitarPlayers()
-        {         
+        {
             if (_allGuitarPlayers?.Count == 0 || _allGuitarPlayers is null)
             {
                 return false;
